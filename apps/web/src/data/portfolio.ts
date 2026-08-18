@@ -17,8 +17,15 @@ export type Project = {
   status: string;
 };
 
+export type ContactLink = {
+  label: string;
+  value: string;
+  href: string;
+  external?: boolean;
+};
+
 export const navigation = [
-  { label: "Sobre mí", href: "#about" },
+  { label: "Sobre mi", href: "#about" },
   { label: "Stack", href: "#stack" },
   { label: "Experiencia", href: "#experience" },
   { label: "Proyectos", href: "#projects" },
@@ -36,26 +43,40 @@ export const skillGroups: SkillGroup[] = [
 
 export const experiences: ExperienceItem[] = [
   {
-    period: "Actualidad",
-    title: "Python Developer / SAP Business One Developer / IT Analyst",
+    period: "2026 - Actualidad",
+    title: "Python Developer",
     organization: "CONFECAT",
-    summary: "Desarrollo y análisis orientados a procesos empresariales, automatización e integración de sistemas.",
-    highlights: ["Desarrollo con Python", "SAP Business One", "Análisis y resolución de problemas tecnológicos"],
+    summary: "Desarrollo y mantenimiento de aplicaciones Python para SAP Business One, con foco en automatizacion y aplicaciones internas.",
+    highlights: ["Python", "SAP Business One", "SQL Server", "Automatizacion", "Testing y documentacion tecnica"],
     current: true,
   },
   {
-    period: "Experiencia previa",
-    title: "IT Support / IT Analyst",
-    organization: "IT",
-    summary: "Soporte técnico, análisis de incidencias y acompañamiento a usuarios y sistemas en entornos de tecnología.",
-    highlights: ["Soporte técnico", "Análisis de incidencias", "Sistemas empresariales"],
+    period: "Julio 2018 - Actualidad",
+    title: "IT Analyst / IT Field Support",
+    organization: "Galmes Digital / Apex America BPO",
+    summary: "Coordinacion de operaciones IT, soporte de nivel 1 y 2, mantenimiento de hardware y software, e implementacion y prueba de aplicaciones internas.",
+    highlights: ["Soporte IT L1/L2", "Infraestructura", "Portales internos", "TeamViewer y AnyDesk", "Imaging de Windows"],
+  },
+  {
+    period: "Mayo 2012 - Actualidad",
+    title: "Computer Repair Technician",
+    organization: "Servicio tecnico independiente",
+    summary: "Reparacion de PC y notebooks, tanto de software como de hardware.",
+    highlights: ["Hardware", "Software", "Diagnostico tecnico"],
   },
 ];
 
 export const projects: Project[] = [
-  { title: "GameMate", type: "E-commerce Full Stack", description: "Proyecto de comercio electrónico desarrollado para explorar una arquitectura full stack y una experiencia de compra web.", stack: ["Angular", "Django"], status: "Case study en preparación" },
-  { title: "TriviaGamer", type: "Aplicación Android", description: "Aplicación móvil centrada en una experiencia de preguntas y respuestas para usuarios de videojuegos.", stack: ["Android"], status: "Detalles próximamente" },
-  { title: "Integraciones SAP Business One", type: "Automatización empresarial", description: "Desarrollos orientados a la automatización de procesos e integración con SAP Business One mediante Service Layer.", stack: ["Python", "SAP Business One", "Service Layer"], status: "Proyectos ampliables" },
+  { title: "Game Mate", type: "Web social", description: "Aplicacion web para conectar gamers segun sus preferencias de videojuegos.", stack: ["Angular", "Django"], status: "Proyecto academico - ISPC" },
+  { title: "Game Mate", type: "E-commerce", description: "Tienda online de productos gamer con gestion de productos, carrito y pagos simulados.", stack: [], status: "Proyecto academico - ISPC" },
+  { title: "Recording Studio Website", type: "Sitio web", description: "Sitio para servicios de grabacion y produccion musical con diseno responsive.", stack: [], status: "Proyecto academico - ISPC" },
+  { title: "Triviador", type: "Aplicacion Android", description: "Aplicacion de trivia sobre videojuegos, enfocada en experiencia de usuario y logica de preguntas y respuestas.", stack: ["Android Studio"], status: "Proyecto final - ISPC" },
+];
+
+export const contactLinks: ContactLink[] = [
+  { label: "Email", value: "chelolmesec@gmail.com", href: "mailto:chelolmesec@gmail.com" },
+  { label: "LinkedIn", value: "marcelo-rojas-a00616233", href: "https://www.linkedin.com/in/marcelo-rojas-a00616233/", external: true },
+  { label: "Curriculum", value: "Descargar CV (PDF)", href: "/CV-Marcelo-Rojas.pdf" },
 ];
 
 export const consoleCommands = ["help", "about", "skills", "stack", "projects", "experience", "contact", "clear"] as const;
