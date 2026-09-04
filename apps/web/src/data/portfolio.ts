@@ -181,15 +181,6 @@ export const projects: Project[] = [
     status: "Proyecto académico / ISPC",
     github: "https://github.com/matiasp23/proyecto-app-movil-ispc-2023",
   },
-  {
-    slug: "portfolio",
-    title: "Portfolio",
-    type: "Portfolio profesional",
-    description: "Este sitio web: portfolio profesional desarrollado como proyecto personal.",
-    stack: ["Next.js", "React", "TypeScript", "CSS"],
-    status: "En desarrollo / próximo lanzamiento",
-    github: "https://github.com/PsicoDevil/portfolio",
-  },
 ];
 
 export const contactLinks: ContactLink[] = [
