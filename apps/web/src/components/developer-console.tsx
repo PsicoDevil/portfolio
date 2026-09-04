@@ -11,7 +11,7 @@ const commandResponses: Record<Exclude<ConsoleCommand, "clear">, string[]> = {
   about: ["Full Stack Developer | IT Analyst", "Perfil hibrido de software, automatizacion, integracion, infraestructura y resolucion de problemas."],
   skills: ["TypeScript - React - Angular - Next.js - Python - Django", "SQL - PostgreSQL - REST APIs - IT - automatizacion - integraciones"],
   stack: ["Frontend: React, Next.js, TypeScript, Angular", "Backend: Python, Django, Django REST Framework, Node.js", "Datos: PostgreSQL, MySQL, SQL Server"],
-  projects: ["Game Mate - web social y e-commerce", "Recording Studio Website", "Triviador - aplicacion Android"],
+  projects: ["Club Veggie - e-commerce en producción", "Web CONFECAT - sitio web publicado", "SYNCRO22 - sitio web de la banda", "Food Club - plataforma de pedidos en desarrollo", "Game Mate - web full stack", "Triviador - aplicacion Android"],
   experience: ["2026 - Actualidad: Python Developer en CONFECAT", "2018 - Actualidad: IT Analyst / IT Field Support", "2012 - Actualidad: Computer Repair Technician"],
   contact: ["Email: chelolmesec@gmail.com", "LinkedIn y CV disponibles en la seccion Contacto."],
 };
