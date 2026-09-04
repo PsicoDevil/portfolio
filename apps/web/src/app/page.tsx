@@ -46,7 +46,7 @@ export default function Home() {
 
         <ScrollReveal className="timeline-reveal"><section id="experience" className="section-shell content-section" aria-labelledby="experience-title">
           <SectionHeading eyebrow="03 / Experiencia" title="De soporte IT y operaciones de campo a desarrollo de software." />
-          <ol id="experience-title" className="timeline reveal-stagger">{experiences.map((experience) => <li className={experience.current ? "timeline-item is-current" : "timeline-item"} key={`${experience.organization}-${experience.title}`}><div className="timeline-period">{experience.period}</div><article className="experience-card"><p className="organization">{experience.organization}</p><h3>{experience.title}</h3><p>{experience.summary}</p><ul>{experience.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}</ul></article></li>)}</ol>
+          <ol id="experience-title" className="timeline reveal-stagger">{experiences.map((experience) => <li className={experience.current ? "timeline-item is-current" : "timeline-item"} key={`${experience.organization}-${experience.title}`}><div className="timeline-period">{experience.period}</div><article className="experience-card"><p className="organization">{experience.organization}</p><h3>{experience.title}</h3><p style={{ whiteSpace: "pre-line" }}>{experience.summary}</p><ul>{experience.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}</ul></article></li>)}</ol>
         </section></ScrollReveal>
 
         <ScrollReveal><section id="projects" className="section-shell content-section" aria-labelledby="projects-title">

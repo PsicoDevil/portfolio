@@ -65,9 +65,9 @@ export const skillGroups: SkillGroup[] = [
 export const experiences: ExperienceItem[] = [
   {
     period: "2026 - Actualidad",
-    title: "Python Developer",
+    title: "Python Developer | SAP Business One Technical Developer | Full Stack Developer",
     organization: "CONFECAT",
-    summary: "Desarrollo y mantenimiento de aplicaciones Python para SAP Business One, con foco en automatizacion y aplicaciones internas.",
+    summary: "Web development, software development, Python automation and SAP Business One technical solutions in a business environment.\n• Develop web applications and internal solutions using React, Next.js, TypeScript, JavaScript, HTML and CSS.\n• Develop Python automation solutions to optimize repetitive operational and administrative processes.\n• Design and integrate REST APIs and connect applications with business systems and external services.\n• Develop backend logic and database structures for business applications and internal systems.\n• Work with SAP Business One, including technical analysis, troubleshooting, process improvements and system integrations.\n• Develop SQL and SAP HANA queries for reporting, data validation and business analysis.\n• Analyze business requirements and translate them into practical technical solutions.\n• Perform testing, troubleshooting and validation of applications and integrations with users.\n• Identify opportunities for automation and continuous improvement across business processes.\n\nTechnologies\n\nReact · Next.js · TypeScript · JavaScript · Python · Node.js · REST APIs · SQL · SAP Business One · SAP HANA · Git · HTML · CSS · JSON · PowerShell · Windows Server",
     highlights: ["Python", "SAP Business One", "SQL Server", "Automatizacion", "Testing y documentacion tecnica"],
     current: true,
   },
