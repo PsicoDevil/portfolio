@@ -1709,6 +1709,10 @@ p {
     columns: 2;
   }
 
+  .timeline::before {
+    content: none;
+  }
+
   .timeline-item {
     gap: 10px;
     grid-template-columns: 1fr;
