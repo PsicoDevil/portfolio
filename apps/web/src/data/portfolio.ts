@@ -45,6 +45,7 @@ export const navigation = [
   { label: "Stack", href: "#stack" },
   { label: "Experiencia", href: "#experience" },
   { label: "Proyectos", href: "#projects" },
+  { label: "Beyond", href: "/beyond" },
   { label: "Console", href: "#console" },
   { label: "Contacto", href: "#contact" },
 ];
@@ -118,6 +119,7 @@ export const projects: Project[] = [
     description: "Sitio web desarrollado para CONFECAT.",
     stack: [],
     status: "Publicado / Demo disponible",
+    image: "/projects/confecat.jpg",
     demo: "https://confecat.netlify.app/",
   },
   {
@@ -127,6 +129,7 @@ export const projects: Project[] = [
     description: "Sitio web oficial de mi banda SYNCRO22, desarrollado como proyecto personal y creativo, combinando desarrollo web, identidad visual y contenido multimedia.",
     stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     status: "Publicado / En desarrollo continuo",
+    image: "/projects/syncro22.png",
     demo: "https://syncro22.netlify.app/",
     instagram: "https://www.instagram.com/syncro22_band/",
     github: "https://github.com/PsicoDevil/SYNCRO22",

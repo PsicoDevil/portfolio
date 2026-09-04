@@ -938,11 +938,15 @@ p {
 }
 
 .project-image-wrap {
+  aspect-ratio: 3 / 2;
   overflow: hidden;
 }
 
 .project-image-wrap img {
+  height: 100%;
+  object-fit: cover;
   transition: transform var(--motion-slow) ease, filter var(--motion-slow) ease;
+  width: 100%;
 }
 
 .project-card:hover .project-image-wrap img {
