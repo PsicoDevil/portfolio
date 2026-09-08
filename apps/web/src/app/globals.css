@@ -2507,3 +2507,39 @@ p {
     justify-content: center;
   }
 }
+
+/* Language switcher (i18n ES/EN) - additive block: reuses existing variables and link look. No existing rule is modified. */
+.lang-switch {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  gap: 10px;
+}
+
+.lang-switch span {
+  color: var(--muted);
+}
+
+.lang-switch a {
+  color: var(--muted);
+  font-family: var(--font-geist-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  transition: color var(--motion-base) ease;
+  white-space: nowrap;
+}
+
+.lang-switch a:hover,
+.lang-switch a.is-active {
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .lang-switch {
+    gap: 8px;
+  }
+
+  .lang-switch a {
+    font-size: 11px;
+  }
+}
