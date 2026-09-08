@@ -1,0 +1,155 @@
+/**
+ * Diccionario base (fuente de verdad del contenido en español).
+ * El contenido ES replica EXACTAMENTE el texto actual del portfolio.
+ */
+export const es = {
+  a11y: {
+    mainNav: "Navegación principal",
+    goTop: "Ir al inicio",
+    heroPanel: "Areas de enfoque",
+    langSwitcher: "Cambiar idioma",
+  },
+  hero: {
+    description: "Convierto necesidades de negocio en soluciones de software claras, mantenibles y conectadas con la realidad operativa.",
+    currentLabel: "Actualmente:",
+    primaryCta: "Ver proyectos",
+    secondaryCta: "Contacto",
+    panelLabel: "Areas de enfoque",
+    panelItems: ["Full Stack Development", "Automatizacion e integraciones", "Bases de datos y APIs", "IT e infraestructura"],
+    panelFooter: "Disponible para desafios tecnologicos.",
+  },
+  about: {
+    eyebrow: "01 / Sobre mi",
+    title: "Desarrollo de software con mirada integral de IT.",
+    lead: "Full Stack Developer e IT Analyst con mas de siete años de experiencia en tecnologia, desarrollo de software y soporte IT.",
+    paragraph1: "Combino desarrollo web y de aplicaciones con soporte tecnico, automatizacion e integracion de sistemas para abordar problemas de punta a punta.",
+    paragraph2: "Actualmente desarrollo aplicaciones Python para CONFECAT S.A., junto con scripts de automatizacion y mantenimiento de soluciones internas. Tambien trabajo en soluciones web y de automatizacion propias para negocios, como el proyecto de e-commerce Food Club y la solucion IG Auto, actualmente en desarrollo.",
+    downloadCv: "Descargar CV",
+    linkedin: "LinkedIn",
+  },
+  stack: {
+    eyebrow: "02 / Tech stack",
+    title: "Herramientas para construir e integrar.",
+    description: "Tecnologias utilizadas en desarrollo web, datos y entornos empresariales.",
+  },
+  experience: {
+    eyebrow: "03 / Experiencia",
+    title: "De soporte IT y operaciones de campo a desarrollo de software.",
+  },
+  projects: {
+    eyebrow: "04 / Proyectos seleccionados",
+    title: "Proyectos seleccionados",
+    description: "Una seleccion de proyectos personales, academicos y profesionales en los que participe durante mi recorrido como desarrollador.",
+    viewCase: "Ver caso",
+  },
+  consoleSection: {
+    eyebrow: "05 / Developer console",
+    title: "Explora el perfil desde la terminal.",
+    description: "Una consola local e interactiva: solo ejecuta comandos predefinidos del portfolio.",
+  },
+  beyondTeaser: {
+    eyebrow: "06 / Personal",
+    title: "Más allá del código",
+    subtitle: "Música · Gaming · Cine",
+    lead: "Un vistazo a las cosas que también forman parte de mí.",
+    explore: "Explorar sección",
+  },
+  contact: {
+    eyebrow: "07 / Contacto",
+    title: "Hablemos de tu proximo desafio.",
+    subtitle: "Contame qué necesitás construir, mejorar o conectar.",
+    form: {
+      nameLabel: "Nombre",
+      emailLabel: "Email",
+      messageLabel: "Mensaje",
+      namePlaceholder: "Tu nombre",
+      emailPlaceholder: "tu@email.com",
+      messagePlaceholder: "¿En qué podemos trabajar?",
+      submit: "Enviar mensaje",
+      missingFields: "Completá nombre, email y mensaje.",
+      successMessage: "Se abrió tu cliente de correo con el mensaje preparado.",
+      subjectTemplate: "Contacto desde portfolio - {name}",
+      bodyTemplate: "Nombre: {name}\nEmail: {email}\n\n{message}",
+    },
+  },
+  footer: {
+    portfolio: "Portfolio profesional",
+  },
+  console: {
+    welcome: ["Portfolio developer console v1.0", "Escribi 'help' para ver los comandos disponibles."],
+    responses: {
+      help: ["Comandos: help, about, skills, stack, projects, experience, contact, clear"],
+      about: ["Full Stack Developer | IT Analyst", "Perfil hibrido de software, automatizacion, integracion, infraestructura y resolucion de problemas."],
+      skills: ["TypeScript - React - Angular - Next.js - Python - Django", "SQL - PostgreSQL - REST APIs - IT - automatizacion - integraciones"],
+      stack: ["Frontend: React, Next.js, TypeScript, Angular", "Backend: Python, Django, Django REST Framework, Node.js", "Datos: PostgreSQL, MySQL, SQL Server"],
+      projects: ["Club Veggie - e-commerce en producción", "Web CONFECAT - sitio web publicado", "SYNCRO22 - sitio web de la banda", "Food Club - plataforma de pedidos en desarrollo", "Game Mate - web full stack", "Triviador - aplicacion Android"],
+      experience: ["2026 - Actualidad: Python Developer en CONFECAT", "2018 - Actualidad: IT Analyst / IT Field Support", "2012 - Actualidad: Computer Repair Technician"],
+      contact: ["Email: chelolmesec@gmail.com", "LinkedIn y CV disponibles en la seccion Contacto."],
+    },
+    unknownCommand: "Comando no reconocido: {command}",
+    tryHelp: "Proba con 'help'.",
+    inputLabel: "Ingresa un comando de la consola",
+    placeholder: "escribi help",
+    suggestedAria: "Comandos sugeridos",
+  },
+  beyond: {
+    back: "Volver al portfolio",
+    eyebrow: "Más allá del código",
+    introLines: ["Hay una parte de mí que construye software.", "Y otra que vive entre guitarras, videojuegos,", "películas y conversaciones interminables sobre ellos."],
+    introText: "Distintas formas de crear, explorar y disfrutar lo que me interesa.",
+    alts: {
+      syncroLogo: "Logo de SYNCRO22",
+      drums: "Batería y equipamiento de la banda",
+      live: "SYNCRO22 en vivo",
+    },
+    music: {
+      eyebrow: "Música",
+      kicker: "Guitarra · Coros · Rock",
+      heading: "Una parte importante de mi vida también pasa arriba de un escenario.",
+      paragraph1: "Formo parte de **SYNCRO22**, un proyecto de rock donde toco la guitarra y hago coros.",
+      paragraph2: "La música es otra forma de hacer lo mismo que me gusta hacer programando: crear cosas, probar ideas y construir algo con otras personas.",
+      cta: "Ver SYNCRO22",
+    },
+    gaming: {
+      eyebrow: "Gaming",
+      title: "Pasión gamer",
+      kicker: "Videojuegos · Mundos · Historias",
+      heading: "No solamente juego videojuegos. Me gustan los mundos que construyen.",
+      paragraph1: "Soy gamer en general, pero tengo especial debilidad por experiencias como **The Witcher** y **Red Dead Redemption**.",
+      paragraph2: "También participo como panelista en conversaciones sobre videojuegos en **Amplificados**.",
+      cta: "Ver Amplificados",
+    },
+    cinema: {
+      eyebrow: "Cine",
+      title: "Una colección personal",
+      intro: "Cine y series que forman parte de mi colección personal. Ciencia ficción, fantasía, terror, thrillers y algunas historias que dejaron marca.",
+    },
+    footer: {
+      tagline: "Más allá del código",
+      back: "Volver al portfolio",
+    },
+  },
+  caseStudy: {
+    back: "Volver a proyectos",
+    visitSite: "Visitar el sitio",
+    viewGithub: "Ver GitHub",
+    infoAria: "Información del proyecto",
+    coverAltTemplate: "Vista de {title}",
+    problem: "01 / Problema",
+    solution: "02 / Solución",
+    features: "03 / Funcionalidades",
+    architecture: "04 / Arquitectura y stack",
+    outcome: "05 / Resultado",
+    roadmap: "06 / Próximos pasos",
+    footerPortfolio: "Portfolio profesional",
+    letsTalk: "Hablemos",
+    fallbackTitle: "Proyecto | Portfolio",
+  },
+  meta: {
+    title: "Portfolio | Full Stack Developer & IT Analyst",
+    homeDescription: "Portfolio profesional de Full Stack Developer e IT Analyst, con experiencia en software, automatización e integración de sistemas.",
+  },
+};
+
+export type Dictionary = typeof es;
+
