@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <section className="hero section-shell" aria-labelledby="hero-title">
           <div className="hero-copy hero-stagger">
-            <p className="eyebrow">Software Development / IT Analysis</p>
+            <p className="eyebrow">DEVELOPER / IT ANALYST</p>
             <h1 id="hero-title">Full Stack Developer</h1>
             <p className="hero-subtitle">IT Analyst <span>&middot;</span> Software Development <span>&middot;</span> Automation</p>
             <p className="hero-description">Convierto necesidades de negocio en soluciones de software claras, mantenibles y conectadas con la realidad operativa.</p>
@@ -114,7 +114,7 @@ export default function Home() {
           <div className="contact-grid"><div><h2 id="contact-title">Hablemos de tu proximo desafio.</h2><p>Contame qué necesitás construir, mejorar o conectar.</p><ul className="contact-links">{contactLinks.map((link) => <li key={link.label}><span>{link.label}</span><a href={link.href} download={link.label === "Curriculum"} target={link.external ? "_blank" : undefined} rel={link.external ? "noreferrer" : undefined}>{link.value} <span aria-hidden="true">{link.external ? "↗" : "↓"}</span></a></li>)}</ul></div><ContactForm /></div>
         </section></ScrollReveal>
       </main>
-      <footer className="site-footer"><div className="site-footer-content"><span>Portfolio profesional</span><span>Full Stack Development <span aria-hidden="true">&middot;</span> IT Analysis</span></div></footer>
+      <footer className="site-footer"><div className="site-footer-content"><span>Portfolio profesional</span><span>Full Stack Developer <span aria-hidden="true">&middot;</span> IT Analyst</span></div></footer>
     </div>
   );
 }
