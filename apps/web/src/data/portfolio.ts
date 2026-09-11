@@ -187,7 +187,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     status: { es: "Publicado / En desarrollo continuo", en: "Published / Continuous development" },
     image: "/projects/syncro22.png",
-    demo: "https://syncro22.netlify.app/",
+    demo: "https://syncro22.vercel.app/",
     instagram: "https://www.instagram.com/syncro22_band/",
     github: "https://github.com/PsicoDevil/SYNCRO22",
   },
